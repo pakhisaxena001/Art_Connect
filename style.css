@@ -1,0 +1,458 @@
+
+body{ 
+     font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* index.html */
+.hero-banner {
+  background: url('images/banner.jpg') center/cover no-repeat;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+}
+
+.testimonial {
+  background-color: #fef6e4;
+  padding: 2rem;
+  margin: 1rem;
+  border-left: 5px solid #fca311;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.shop-sec {
+  padding: 3rem 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.shop-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.shop-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .shop-row {
+    flex-direction: row;
+  }
+}
+
+.shop-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+.shop-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.shop-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background: #007bff;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+}
+
+
+
+ /* about.html */
+
+/* Navbar */
+.about__navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner Section */
+.about__banner {
+  background: linear-gradient(to right, #f8f9fa, #e3e3e3);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about__banner__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.about__banner p.lead {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Mission Section */
+.about__mission {
+  padding: 70px 20px;
+  background-color: #fff;
+}
+
+.about__mission h2 {
+  font-size: 2.2rem;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.about__mission__text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Team Section */
+.about__team {
+  background-color: #f0f4f8;
+}
+
+.section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.about__team__name .name-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about__team__name .name-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.about__team__name span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Footer */
+.site__footer {
+  font-size: 0.95rem;
+  background-color: #212529;
+  color: #e9ecef;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+
+
+
+
+/* artists.html */
+    .artists__header {
+      background-color: #f1f1f1;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .artists__header__title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .artists__gallery {
+      padding: 50px 0;
+    }
+    .artists__card img {
+      height: 400px;
+      object-fit: cover;
+    }
+    .artists__gallery .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .artists__gallery .col-md-4 {
+      flex: 0 0 30%;
+      max-width: 30%;
+      box-sizing: border-box;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+   .artists__card {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .artists__card img {
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+    }
+
+    .artists__card .card-body {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 50%;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+    }
+
+
+
+
+/* shop.html */
+/* shops.html */
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Navbar */
+.shops__navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.shops__header {
+  background: linear-gradient(to right, #fefefe, #ececec);
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+.shops__header__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.shops__header .lead {
+  font-size: 1.2rem;
+  color: #5c5c5c;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Shop List Section */
+.shops__list {
+  padding: 60px 0;
+}
+
+.shops__list .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Shop Columns */
+.shops__list .col-md-4 {
+  flex: 0 0 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Shop Card */
+.shops__card {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.shops__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.shops__card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Card Body */
+.shops__card .card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+/* Shop Title */
+.shops__card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Shop Info */
+.shops__card .card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 12px;
+}
+
+/* View on Map Button */
+.shops__card .btn-primary {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.15);
+}
+
+.shops__card .btn-primary:hover {
+  background: linear-gradient(to right, #0056b3, #003c82);
+  transform: scale(1.05);
+}
+
+/* Footer */
+.site__footer {
+  font-size: 0.95rem;
+  background-color: #212529;
+  color: #e9ecef;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+/* Responsive Layout */
+@media (max-width: 991px) {
+  .shops__list .col-md-4 {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 767px) {
+  .shops__header__title {
+    font-size: 2rem;
+  }
+
+  .shops__list .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .shops__card img {
+    height: 180px;
+  }
+
+  .shops__card .card-title {
+    font-size: 1.1rem;
+  }
+
+  .shops__card .btn-primary {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}
+
+
+
+
+    
+/* contact.html */
+/* ===== Contact Page Styles ===== */
+
+.contact__header {
+  background-color: #f0f0f0;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.contact__header__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contact__form__section {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.contact__form__card {
+  background-color: #f9f9f9;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact__form__card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact__form__card input,
+.contact__form__card textarea {
+  border-radius: 6px;
+}
+
+.contact__form__card button {
+  margin-top: 1rem;
+}
