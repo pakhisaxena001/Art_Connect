@@ -240,6 +240,24 @@ body{
       font-size: 0.95rem;
     }
 
+    @media (max-width: 768px) {
+      .artists__gallery .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .artists__header__title {
+        font-size: 2rem;
+      }
+
+      .card-title {
+        font-size: 1rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+      }
+    }
 
 
 
